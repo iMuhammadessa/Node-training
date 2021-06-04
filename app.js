@@ -18,13 +18,13 @@ var mul = x * y;
 // console.log(mul);
 
 // Log Modules exported
-var myLogModule = require('./Log.js');
+var myLogModule = require('./LocalModules/Log.js');
 myLogModule.info('Node.js started');
 
 // Message Module exported
-var msg = require('./Messages.js');
+var msg = require('./LocalModules/Messages.js');
 console.log(msg);
 
 // Data Module exported
-var person = require('./data.js');
+var person = require('./LocalModules/data.js');
 console.log(person.firstName + ' ' + person.lastName);
