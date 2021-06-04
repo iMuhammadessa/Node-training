@@ -1,0 +1,23 @@
+{
+  "name": "node-training",
+  "version": "1.0.0",
+  "description": "A free digital training of Nodejs by Khyber-Pakhtunkhwa in collaboration with Cybervision, KPYEP & UNDP",
+  "main": "npmpackage.js",
+  "dependencies": {
+    "chalk": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iMuhammadessa/Node-training.git"
+  },
+  "author": "Muhammad Essa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iMuhammadessa/Node-training/issues"
+  },
+  "homepage": "https://github.com/iMuhammadessa/Node-training#readme"
+}
